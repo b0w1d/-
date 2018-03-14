@@ -65,7 +65,7 @@ until a.all?(&:zero?)
         a[pile] -= cnt
         break
       else
-        puts "Invalid option, please submit an integer in #{1..a[pile].to_a}."
+        puts "Invalid option, please submit an integer in #{(1..a[pile]).to_a}."
       end
     end
   end
